@@ -100,6 +100,7 @@ void main()
 		cout << items[i].weight;
 		cout << " ";
 		cout << items[i].profit;
+		cout << " " << items[i].profit / items[i].weight;
 		cout << '\n';
 		i++;
 	}
